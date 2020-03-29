@@ -55,6 +55,7 @@ a {
     width: 100%;
     height: 100%;
     background-color: white;
+    border-radius: 10px;
 }
 
 .paragraph {
@@ -87,4 +88,20 @@ table th {
 
 .fa-star {
     color: #FAFFFF;
+}
+
+.title-item {
+    /* shorthan properties
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #C6426E; */
+    border-bottom: solid 2px #8D5CFF;
+    padding-bottom: 1em;
+}
+
+.position {
+    background-color: #59C9FF;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
