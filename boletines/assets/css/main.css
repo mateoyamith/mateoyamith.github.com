@@ -1,5 +1,32 @@
 /*Comentarios en css*/
 
+
+/*
+Paleta de colores profesor
+Rosa:#C6426E
+Morado:#642B73
+Negro:#999
+Gris:#f5f5f5
+*/
+
+
+/*Mi paleta de colores
+#9046B3
+#FFDC96
+#D57CFF
+#63FFB4
+#4FB383
+*/
+
+.container {
+    background: #24C6DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #514A9D, #24C6DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .red {
     height: 200px;
     width: 100px;
