@@ -80,42 +80,47 @@ a {
     justify-content: center;
 }
 
-
-}
 .paragraph {
     line-height: 1.2em;
     font-weight: 300;
 }
+
 .table {
     width: 100%;
     border-spacing: 0;
 }
+
 .table td,
 .table th {
     padding: 1em;
     text-align: left;
 }
+
 table th {
     background-color: #B680FF;
 }
+
 .table tr:nth-child(odd) {
     background-color: #8B99FF;
 }
+
 .table tr:nth-child(even) {
     background-color: #74A0E8;
 }
+
 .fa-star {
     color: #FAFFFF;
 }
+
 .title-item {
     /* shorthan properties
     border-bottom-style: solid;
     border-width: 2px;
     border-color: #C6426E; */
-    
     border-bottom: solid 2px #8D5CFF;
     padding-bottom: 1em;
 }
+
 .position {
     background-color: #59C9FF;
     color: white;
