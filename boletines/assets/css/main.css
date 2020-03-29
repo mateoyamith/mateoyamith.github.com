@@ -16,6 +16,7 @@ Gris:#f5f5f5
 #D57CFF
 #63FFB4
 #4FB383
+#534CFF
 */
 
 html {
@@ -24,6 +25,15 @@ html {
 
 body {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1213FF;
+}
+
+.title {
+    text-transform: uppercase;
 }
 
 .container {
@@ -47,17 +57,34 @@ body {
     background-color: white;
 }
 
-.red {
-    height: 200px;
-    width: 100px;
-    background-color: red;
+.paragraph {
+    line-height: 1.2em;
+    font-weight: 300;
 }
 
-#boton-pago {
-    background-color: black;
-    color: white;
+.table {
+    width: 100%;
+    border-spacing: 0;
 }
 
-td {
-    border: solid 1px;
+.table td,
+.table th {
+    padding: 1em;
+    text-align: left;
+}
+
+table th {
+    background-color: #B680FF;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #8B99FF;
+}
+
+.table tr:nth-child(even) {
+    background-color: #74A0E8;
+}
+
+.fa-star {
+    color: #FAFFFF;
 }
