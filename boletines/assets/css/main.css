@@ -1,12 +1,18 @@
-p{
+p {
     color: red;
- }
- .red{
-     height: 200px;
-     width: 100px;
-     background-color: red;
- }
- #boton-pago{
-     background-color: black;
-     color: white;
- }
+}
+
+.red {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+#boton-pago {
+    background-color: black;
+    color: white;
+}
+
+td {
+    border: solid 1px;
+}
