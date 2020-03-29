@@ -32,6 +32,22 @@ a {
     color: #1213FF;
 }
 
+a:hover {
+    opacity: 0.4;
+}
+
+
+/*
+Se usa para aclarar el hipervinculo cuando este encima de el
+a:hover
+Si una pagina ya fue visitada anteriormente
+a:visited
+Se usa en botones y link y se activa cuando hace touch sobre el 
+a:active
+Cuando se requiere poner un foco en el link
+a:focus
+*/
+
 .title {
     text-transform: uppercase;
 }
