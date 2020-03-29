@@ -49,6 +49,7 @@ a:focus
 */
 
 .title {
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -73,6 +74,7 @@ a:focus
     background-color: white;
     border-radius: 10px;
     position: relative;
+    padding: 1.8em;
 }
 
 .actions {
@@ -133,6 +135,7 @@ table th {
     border-bottom-style: solid;
     border-width: 2px;
     border-color: #C6426E; */
+    font-size: 2em;
     border-bottom: solid 2px #8D5CFF;
     padding-bottom: 1em;
 }
@@ -142,4 +145,17 @@ table th {
     color: white;
     padding: 10px;
     border-radius: 10px;
+    margin-right: 0.5em;
+}
+
+.address {
+    font-weight: bold;
+    color: #642b73;
+    font-size: 1.2em;
+}
+
+.main-image {
+    float: left;
+    margin-right: 1em;
+    height: 250px;
 }
