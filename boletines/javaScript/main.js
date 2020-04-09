@@ -1,6 +1,11 @@
-console.log("Hola mundo desde el archivo");
+//console.log("Hola mundo desde el archivo");
 
 //DOM
-let table = document.querySelector(".table");
+//querySelectorAll / querySelector
+let links = document.querySelectorAll("a");
 
-console.log(table);
+links.forEach(function(link) {
+    console.log(link)
+})
+
+//console.log(links);
