@@ -28,7 +28,8 @@ let links = document.querySelectorAll(".close");
 //Recorrelos
 links.forEach(function(cls) {
     //Agregar un evento click en cada uno de ellos
-    cls.addEventListener('click', function() {
-        console.log(":)");
+    cls.addEventListener('click', function(event) {
+        event.preventDefault();
+        return false;
     });
 });
