@@ -42,7 +42,7 @@ links.forEach(function(cls) {
 
         //Retrasar tiempo para que se vea la animacion
         setTimeout(function() {
-            location.href = "/";
+            location.href = "/boletines";
         }, 1000);
 
         /*
