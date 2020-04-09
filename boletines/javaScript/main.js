@@ -28,8 +28,16 @@ let links = document.querySelectorAll(".close");
 //Recorrelos
 links.forEach(function(cls) {
     //Agregar un evento click en cada uno de ellos
-    cls.addEventListener('click', function(event) {
-        event.preventDefault();
-        return false;
+    cls.addEventListener('click', function(ev) {
+        ev.preventDefault();
+        let content = document.querySelector(".content");
+
+        //Quitarle las clases de animacion que ya tiene
+        content.classList.remove("fadeInDown");
+        content.classList.remove("animated");
+
+        //Agregar clases para animar su salida fadeOutUp
+        content.classList.add("fadeOutUp");
+        content.classList.add("animated");
     });
 });
