@@ -39,5 +39,16 @@ links.forEach(function(cls) {
         //Agregar clases para animar su salida fadeOutUp
         content.classList.add("fadeOutUp");
         content.classList.add("animated");
+
+        //Retrasar tiempo para que se vea la animacion
+        setTimeout(function() {
+            location.href = "/";
+        }, 1000);
+
+        /*
+        setInterval(() => {
+            location.href = "/";
+        }, 1000);
+        */
     });
 });
