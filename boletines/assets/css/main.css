@@ -81,6 +81,25 @@ img {
     overflow: scroll;
 }
 
+.content {
+    padding: 1em;
+}
+
+td {
+    display: block;
+    width: 100%;
+}
+
+td:nth-of-type(1) {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+th {
+    display: none;
+}
+
 .actions {
     position: absolute;
     top: 1em;
@@ -166,21 +185,19 @@ table th {
     height: 250px;
 }
 
-@media (max-width:600px) {
-    .content {
-        padding: 1em;
+@media (min-width:600px) {
+    th {
+        display: table-cell;
     }
     td {
-        display: block;
-        width: 100%;
+        width: auto;
+        display: table-cell;
     }
     td:nth-of-type(1) {
-        font-size: 1.5em;
-        font-weight: bold;
-        color: white;
+        font-size: 1em;
     }
-    th {
-        display: none;
+    .content {
+        padding: 1.8em;
     }
 }
 
